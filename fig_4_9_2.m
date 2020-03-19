@@ -11,7 +11,7 @@
 % Copyright (c) 2020, Eun Hwan Shin.
 
 clear
-
+close all
 % This script generate Fig. 4.9-2. Orbit eccentricity estabilished initial 
 % values of \beta and r v^2/K.
 
