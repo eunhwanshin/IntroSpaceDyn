@@ -48,7 +48,7 @@ fprintf('Semi-major axis = %.3f km\n', a * 1.0e-3);
 da = (1+e)/(1-e);
 
 % Apogee altitude: (4.10-6)
-za = r0 * da - 1;
+za = r0 * da - R;
 fprintf('Apogee altitude = %.3f km\n', za * 1.0e-3);
 
 % Period (4.10-8)
