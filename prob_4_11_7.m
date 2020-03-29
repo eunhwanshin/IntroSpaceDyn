@@ -27,7 +27,7 @@ K = 3986004.418e+8;
 % of which height is 300 miles.
 
 % original perigee speed
-vp = 18300 * mi2m;
+vp = 18300/3600 * mi2m;
 rp = 300 * mi2m + R;
 
 
